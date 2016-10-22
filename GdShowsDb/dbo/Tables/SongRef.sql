@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[SongRef] (
+    [Id]   UNIQUEIDENTIFIER NOT NULL,
+    [Name] VARCHAR (256)    NULL,
+    CONSTRAINT [PK_SongRef] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
